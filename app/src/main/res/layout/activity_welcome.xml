@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logoback2"
+    tools:context=".Welcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/textView"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/ff"
+            android:text="Find the Best"
+            android:textColor="#C62828"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/textView2"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="390dp"
+            android:background="@drawable/ff"
+            android:text="Brands"
+            android:textColor="#C62828"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/textView3"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/ff"
+            android:text="in the World"
+            android:textColor="#C62828"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="259dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/ff"
+            android:textColor="#C62828"
+            android:text="Explore"
+            android:textSize="24sp"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+    </RelativeLayout>
+
+</ScrollView>
